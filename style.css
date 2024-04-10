@@ -9,7 +9,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 1fr 3.5fr;
   height: 100%;
 }
 
@@ -80,6 +80,50 @@ body {
 .header {
   background-color: #ffffff;
   grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.header-left {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+}
+
+.header-search-bar {
+  display: flex;
+  padding-left: 35px;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  height: 30px;
+  width: 45vw;
+  border-radius: 20px;
+  border: 0px;
+  background-color: #e2e8f0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+
+.big-profile-pic {
+  height: 80px;
+  border-radius: 100%;
+}
+
+.user-wel {
+  height: 0px;
+}
+
+.user-text {
+  font-size: 26px;
+  height: 0px;
 }
 
 .main-content {
