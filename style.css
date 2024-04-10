@@ -9,7 +9,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 3.5fr;
+  grid-template-rows: 1fr 5fr;
   height: 100%;
 }
 
@@ -147,6 +147,7 @@ input {
 
 .small-header-text {
   font-size: 20px;
+  font-weight: 600;
 }
 
 .user-buttons {
@@ -171,4 +172,95 @@ input {
   background-color: #e2e8f0;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  padding: 15px 40px 55px 20px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  gap: 10px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 45fr;
+  overflow: hidden;
+}
+
+.side-color {
+  background-color: #536373;
+}
+
+.card-content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+.card-text {
+  color: grey;
+}
+
+.bot-card {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.side-container {
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  gap: 10px;
+}
+
+.side-grid {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.a-card {
+  background-color: white;
+  border-radius: 10px;
+}
+.a-content {
+  padding: 30px 30px;
+}
+
+.bord-bot {
+  border-bottom: 1px solid gainsboro;
+}
+
+.t-card {
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  gap: 10px;
+}
+
+.t-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.trend-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
