@@ -60,6 +60,7 @@ body {
 
 .nav-icons {
   height: 30px;
+  cursor: pointer;
 }
 
 .nav-text {
@@ -124,6 +125,46 @@ input {
 .user-text {
   font-size: 26px;
   height: 0px;
+}
+
+.header-right {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+  padding-right: 70px;
+}
+
+.user-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 35px;
+}
+
+.small-profile-pic {
+  height: 50px;
+  border-radius: 100%;
+}
+
+.small-header-text {
+  font-size: 20px;
+}
+
+.user-buttons {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-button {
+  height: 5vh;
+  width: 6vw;
+  border-radius: 100px;
+  border: 0px;
+  background-color: #10b981;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
 }
 
 .main-content {
